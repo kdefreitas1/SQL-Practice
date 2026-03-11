@@ -1,4 +1,3 @@
-INSERT INTO transactions
-VALUES (1003, 4.99);
-
-SELECT * FROM transactions;
+SELECT *
+FROM transactions INNER JOIN customers
+ON transactions.customer_id = customers.customer_id;
