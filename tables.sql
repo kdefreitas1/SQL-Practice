@@ -1,4 +1,4 @@
-SELECT * 
-FROM transactions LEFT JOIN customers
-ON transactions.customer_id = customers.customer_id;
+USE myDB;
 
+SELECT * FROM employees
+WHERE first_name LIKE "s%";
